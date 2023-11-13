@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
-import "@aws-amplify/ui-react/styles.css";
 import {
-  withAuthenticator,
   Button,
+  Card,
   Heading,
   Image,
   View,
-  Card,
-} from "@aws-amplify/ui-react";
+  withAuthenticator,
+} from '@aws-amplify/ui-react'
+import '@aws-amplify/ui-react/styles.css'
+import logo from './logo.svg'
 
 function App({ signOut }) {
   return (
@@ -18,7 +18,7 @@ function App({ signOut }) {
       </Card>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
-  );
+  )
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(App)
