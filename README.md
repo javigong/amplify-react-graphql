@@ -10,3 +10,4 @@ This project was bootstrapped with Create React App and builded using **AWS Ampl
 
 - Storage: file storage using Amazon S3 to upload and view images
 
+- Frontend Components: Amplify UI Library 
